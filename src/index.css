@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Fonts: Supreme (body) & Parabolica (headings)
+   These are paid fonts from Pangram Pangram Foundry.
+   Drop the licensed font files into /public/fonts/ with these exact
+   names (or update the paths below) once you have the license:
+     public/fonts/Supreme-Variable.woff2
+     public/fonts/Parabolica-Variable.woff2
+   Until then this falls back to system fonts so the app still works.
+------------------------------------------------------------------*/
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/Supreme-Variable.woff2") format("woff2-variations");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Parabolica";
+  src: url("/fonts/Parabolica-Variable.woff2") format("woff2-variations");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #366182;
+  --color-primary-light: #4d7fa6;
+  --color-dark: #0d2b3c;
+  --color-neutral: #d2d2d2;
+
+  --font-sans: "Supreme", "Inter", system-ui, sans-serif;
+  --font-display: "Parabolica", "Supreme", system-ui, sans-serif;
+}
+
+html {
+  background: var(--color-dark);
+}
+
+body {
+  margin: 0;
+  background: var(--color-dark);
+  color: var(--color-neutral);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
