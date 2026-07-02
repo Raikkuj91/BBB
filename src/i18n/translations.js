@@ -3,9 +3,9 @@
 
 export const translations = {
   sv: {
-    eventTitle: "Sommarfest 2026",
-    eventTagline: "VM Sport bjuder på burgare och bra stämning",
-    eventDate: "Söndag 20.7.2026",
+    eventTitle: "Bikes, Burgers & Beer",
+        eventTagline: "",
+        eventDate: "Måndag 20.7.2026",
     eventTime: "Kl 19:30",
     eventLocation: "Pavis terrass (bokad del av terrassen)",
     eventPrice: "Burgare + öl/läsk: 22 €",
@@ -54,9 +54,9 @@ export const translations = {
     colTime: "Anmäld",
   },
   fi: {
-    eventTitle: "Kesäjuhla 2026",
-    eventTagline: "VM Sport tarjoaa burgerit ja hyvän fiiliksen",
-    eventDate: "Sunnuntai 20.7.2026",
+        eventTitle: "Bikes, Burgers & Beer",
+        eventTagline: "",
+        eventDate: "Maanantai 20.7.2026",
     eventTime: "Klo 19:30",
     eventLocation: "Pavis-terassi (varattu osa terassia)",
     eventPrice: "Burgeri + olut/limu: 22 €",
