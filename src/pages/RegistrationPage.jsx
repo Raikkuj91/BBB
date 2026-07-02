@@ -15,9 +15,12 @@ export default function RegistrationPage() {
         </div>
 
         <div className="mb-10 text-center">
-          <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-primary-light">
-            VM Sport
-          </p>
+          <img
+                        src="https://vmsport.fi/wp-content/uploads/2024/12/vm_sport_RGB_horisontal-e1734526017575.png"
+                        alt="VM Sport"
+                        className="mx-auto mb-6 h-12 w-auto"
+                        style={{ filter: 'brightness(0) invert(1)' }}
+                      />
           <h1 className="text-4xl font-bold text-white sm:text-5xl">
             {t.eventTitle}
           </h1>
